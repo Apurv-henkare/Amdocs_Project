@@ -1,0 +1,240 @@
+.Learn 
+{
+     /* height: 100vh;  */
+    /* border: 3px solid black;  */
+    display:flex;
+    flex-direction: column;   
+    /* background-color: rgba(41, 41, 40,0.9); */
+    /* background-size: 200% 200%; */
+    /* background-position: center;
+    background-repeat: no-repeat;  */
+    justify-content: space-between;
+    margin:0;  
+    
+    
+    padding-top:150px; 
+    padding-bottom:80px;
+} 
+
+.Learn-Header
+{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between; 
+    position:fixed; 
+    top:0;
+    left:0;
+    right:0; 
+    z-index: 100;
+    /* bottom:40px;
+
+
+
+
+    /* margin-bottom:140px; */
+    /* border: 3px solid black;   */
+    background-color: black;
+}    
+
+.video-grid 
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap:80px;
+    row-gap:30px; 
+    padding:30px;
+    
+    /* border:4px solid orange; */
+    
+}  
+
+.Photo 
+{
+    margin-bottom: 12px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color:  rgba(200,200,200,0.7); 
+
+    border-radius: 20px;;
+    /* border:4px solid green;  */
+}    
+
+
+.Photo-Des 
+{
+    padding: 0 10px; 
+    font-family: Arial;
+    font-weight:700;
+} 
+
+.Photo-Title 
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}  
+
+.Photo-Title h2 
+{
+    margin:10px;
+}
+
+.Photo-Details 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.Photo-Image-Div 
+{
+    text-align: center;
+}
+
+.Photo-Image-Profile 
+{
+    width:50%;
+    
+}  
+
+.Photo-Image-Admin 
+{
+    width:100%;
+    border-radius: 20px;
+    
+}   
+
+
+
+.Photo-Table 
+{
+    background-color: rgba(200,200,200,0.7);
+    margin: 10px;
+    border-radius: 20px;
+}
+.Photo-Details-Table 
+{
+    display: grid;
+    grid-template-columns: 150px 1fr; 
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding-left:50px; 
+    
+}
+ 
+
+
+
+
+.Photo-Image 
+{
+    width:100%;   
+    border-radius: 20px;;
+  
+}   
+
+.Photo-More 
+{   
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}  
+
+.Photo-More-Admin
+{   
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    
+}  
+
+.Photo-More-Admin input 
+{   
+    width:30%;
+    height:20px; 
+    text-align: center;
+    border-radius: 10px;;
+} 
+
+.Photo-More-Admin button 
+{   
+    border-radius: 10px;;
+    margin-top: 10px;
+    width:30%;
+    height:30px;
+} 
+
+.Photo-More-Admin-Change
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+
+
+.Photo-More button 
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    width:30%;
+    height:35px; 
+
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    border:none; 
+    cursor: pointer;
+
+} 
+
+
+
+@media (max-width:1200px)
+{
+    /* .Dropdown-Menu button {  
+
+        display: none;
+    } 
+    .Dropdown-Menu 
+    {
+        display: none;
+    } */
+    .video-grid
+    {
+        grid-template-columns: 1fr 1fr ;
+    }
+} 
+
+@media (max-width:700px)
+{
+    
+   
+    .video-grid
+    {
+        grid-template-columns: 1fr ; 
+        padding:10px;
+        
+    }    
+    
+
+ 
+
+}

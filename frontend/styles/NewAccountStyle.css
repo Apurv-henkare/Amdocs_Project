@@ -1,0 +1,136 @@
+ 
+
+ .Register 
+ {  
+    height: 100vh;
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    /* background-color: rgba(41, 41, 40,0.9);  */
+    margin:0;
+    background-size: 100% 100%; 
+    background-position: center;
+    /* padding-top:80px; 
+    padding-bottom:40px; */
+ } 
+
+ .Register-Header 
+ {
+    text-align: center;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: 500;  
+    color:white; 
+    /* position: fixed;
+    top:0;
+    left:0; */
+    right:0;
+    background-color: black;
+    /* border: 3px solid black; */
+
+ } 
+
+ /* .Register-Detail form
+ {
+   display:flex;
+   flex-direction: column; 
+   margin:350px auto; 
+   
+   border: 4px solid orange; 
+   max-width: 800px;
+   
+ }  */
+
+ 
+ 
+
+ 
+
+
+ .Register-Detail-Form 
+ {  
+    border: 3px solid black;
+    margin:auto; 
+    max-width: 600px;
+ 
+    
+    background-color: rgba(200,200,200,0.7);
+    padding:20px; 
+    border-radius: 20px;;
+ } 
+
+ .Register-Detail-Form-Grid 
+ {  
+    font-size: 25px; 
+    font-family: Arial; 
+    font-weight: bold;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    margin-bottom: 18px;
+ }  
+
+ .Register-Detail-Form-Grid2
+{
+    /* position: absolute;
+    bottom:0; */
+    display: flex;
+    flex:1;
+    justify-content: center; 
+    margin-top: 70px;
+    /* left:45%; */
+} 
+
+.Register-Detail-Form-Grid2 button
+{
+    /* position: absolute;
+    bottom:0; */
+    display: flex;
+    /* flex:1; */
+    justify-content: center; 
+    height:50px;
+    width:20%;  
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    /* left:45%; */
+}
+
+ @media (max-width:650px) 
+ {  
+
+    .Register-Header 
+    {
+       text-align: center;
+       font-family: Arial;
+       font-size: 2rem;
+       font-weight: 500; 
+       /* border: 3px solid black; */
+   
+    }  
+    .Register-Detail-Form 
+    {  
+        /* border: 3px solid green; */
+        /* margin:0 auto; */
+        max-width:500px;
+        padding:20px;
+    }  
+
+    .Register-Detail-Form-Grid 
+    {  
+        font-size: 20px; 
+        font-family: Arial; 
+        font-weight: bold;
+        display:grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 18px;
+    }  
+
+    .Register-Detail-Form-Grid input
+    {  
+       margin:3px;
+       border-radius: 4px;
+       height:30px;
+    } 
+ } 
+
+

@@ -1,0 +1,393 @@
+
+html 
+{
+    background-color: rgba(41, 41, 40,0.9); 
+}
+
+body{
+
+    font-family: Arial;
+    font-size:18px; 
+    margin:0;  
+
+    
+    /* background-color: rgba(41, 41, 40,0.9); */
+    /* padding:0;   */
+    background-image: url('../Images/course4.jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    
+
+    
+} 
+
+.BG{
+     background-color: rgba(41, 41, 40,0.9); 
+     /* background-size: 100% 200%; */
+     
+     /* transition: background-color 2s ease;  */
+}
+.Main 
+{   
+    
+    height: 100vh;
+    border: 3px solid black; 
+    display:flex;
+    flex-direction: column;   
+    /* background-color: rgba(41, 41, 40,0.9); */
+    /* background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=sph'); */
+     
+    justify-content: space-between;
+    margin:0;
+    
+    /* padding-top:40px; 
+    padding-bottom:40px; */
+    
+    
+}  
+
+.Main-Header-Title 
+{
+    color:white; 
+    text-align: center;
+    align-items: center; 
+    
+}
+
+.Main-Header
+{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between; 
+    /* position:fixed; 
+    top:0;
+    left:0;
+    right:0; */
+    /* bottom:40px; */
+
+
+
+
+    /* margin-bottom:140px; */
+    border: 3px solid black;  
+    background-color: black;
+}   
+
+.Main-Header-Logo 
+{
+    display: flex;
+    /* flex:1; */
+    border: 3px solid black; 
+     width: 95px; 
+    
+}  
+.Main-Header-Logo-Image{  
+    
+    /* background-image: url("https://png.pngtree.com/png-clipart/20210301/ourmid/pngtree-yellow-modern-level-up-game-design-vector-png-image_2989867.jpg"); */
+    width:100%;
+}
+
+.Main-Header-Login 
+{
+    display:flex; 
+    justify-content: right;
+    align-items: center;
+    width:100px;
+    /* flex:1; */
+}  
+
+.Main-Header-Login-MyCourse 
+{
+    display:flex; 
+    justify-content: right;
+    align-items: center;
+    width:100px;
+    /* flex:1; */
+}   
+
+.Main-Header-Login-MyCourse button 
+{
+    width:80px;
+    font-weight: bold;
+    height: 50px; 
+    border-radius: 5px;
+    
+}
+
+
+ 
+
+.Main-Header-Login button 
+{
+    width:200px;
+    font-weight: bold;
+    height: 50px; 
+    border-radius: 5px;
+    
+}
+
+
+.Main-Middle
+{   
+    border: 3px solid black; 
+    display: flex;
+    flex-direction:column; 
+
+    margin:auto;
+
+    max-width:  800px; 
+    background-color: rgba(200,200,200,0.7);
+    border-radius: 15px;
+
+    /* margin-bottom: 130px; */
+    
+
+    padding:30px;
+ 
+}  
+
+.Main-Middle-Info 
+{
+       font-family: Arial;
+       font-size:40px;
+       font-weight: bold; 
+       margin-bottom: 50px; 
+       color:black;
+}  
+
+.Main-Middle-Learn button
+{   
+
+    width:100%;
+    height:50%; 
+    margin-top: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+
+} 
+
+.Main-Middle-Flex-P 
+{ 
+    color: red;
+}
+
+.Main-Middle-Flex
+{
+     display:grid;
+    grid-template-columns: 3fr 0.4fr;
+    /* border: 3px solid black;  */
+
+    /* display:flex;
+    flex-direction: row;
+    justify-content: space-between; */
+
+    margin-bottom:40px;
+}
+
+.Main-Middle-Account 
+{
+    /* border: 3px solid black */ 
+    margin-top:40px;
+
+} 
+
+.Main-Middle-Account-Header
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}  
+
+.Main-Middle-Account-Info
+{
+   display:grid; 
+   grid-template-columns: 2fr 1fr;
+   box-sizing: border-box;
+   /* border: 3px solid black; */
+   /* position: relative; */
+   /* justify-content: space-between; */
+}  
+
+.Main-Middle-Account-Info-P
+{
+    /* border: 3px solid black;  */
+    /* max-width: 650px; */
+    word-break: break-all;
+    
+}
+
+.Main-Middle-Account-Info-Button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    margin-left: 10%;
+  
+} 
+
+.Main-Middle-Account-Info-Button button
+{
+
+    text-align: center;
+    width: 100%;
+    height: 50px; 
+    justify-content: center;
+    border-radius: 10px;
+    flex:1;
+    cursor: pointer;
+}
+
+.Main-Footer 
+{   
+    
+    border: 3px solid black; 
+    color:white;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    font-family: Arial; 
+    padding:10px;
+    font-weight:bold; 
+    /* position: fixed;
+    left:0;
+    right:0;
+    bottom:0; */
+} 
+
+.Main-Header-Hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    margin-right: 20px;
+  }
+  
+.Main-Header-Hamburger div {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+  } 
+
+  .Dropdown-Menu {
+    position: absolute;
+    
+    top:100px;
+    right:0;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    background-color: black;  
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    
+   
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+    padding: 10px;
+    z-index: 101; /* Make sure it appears above other elements */
+  } 
+
+  .Dropdown-Menu button {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+
+@media (min-width:501px)  
+{
+
+    .Dropdown-Menu
+    {
+        display:none;
+    } 
+    .check{
+        display:none;
+    }
+
+}
+
+@media (max-width:500px)
+{
+    /* .Main
+    {
+        font-size: 1px;
+    } */  
+
+    /* .Main-Middle
+    {
+        margin-bottom:40vh; 
+        margin-top:20vh;
+    } */
+
+    body 
+    {
+        font-size: 16px;
+    } 
+
+    .Main-Header-Login button  
+    {
+        width:200px;
+        height:40px;
+    }  
+
+    .Main-Middle-Account-Info 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+
+    
+    .Main-Middle-Account-Info-Button 
+    {
+        margin-left: 0;
+    }
+
+    .Main-Middle-Account-Info-Button button 
+
+    {
+        margin-top: 20px;
+
+    }   
+
+    /* .Main-Header-Logo-Image {
+        display: none;
+      } */
+    
+      .Main-Header-Title {
+        flex: 1;
+      }
+    
+      .Main-Header-Login-MyCourse {
+        display: none;
+      } 
+
+      .check 
+      {
+        display: flex;
+        align-items: center;
+      }
+    
+      .Main-Header-Hamburger {
+        display: flex; 
+        text-align: center;
+        align-items: center;
+      }
+
+ 
+ 
+}
+
